@@ -1,0 +1,12 @@
+Email Upload Chatter Pictures to Picasa
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=177
+Challenge end date: Fri Apr 29 02:00:00 GMT 2011
+
+Description
+===========
+<p>Create a way to email Chatter photos to a Picasa Web Album. Many companies use Picasa to manage their corporate photo album as it’s free and easy. However, many great company photos are uploaded daily to Chatter instead of Picasa. Wouldn’t it be great if photos posted to Chatter could automatically be sent to a company’s Picasa Web Album?</p>
+
+Requirements
+============
+<p>Picasa has the functionality to upload photos sent to an album’s private email address. With the Spring ‘11 release of salesforce.com it is now possible to write triggers for FeedItem and FeedComment objects. Write a trigger that emails the photo to Picasa each time a new Chatter photo is added. The trigger should not send all photos to Picasa but look for some type identifier in the Name or Description for the photo. For example, the trigger may only send the photo if the Name field contains “[picasa]” at the end.</p> <p>Must include adequate test coverage.</p>
